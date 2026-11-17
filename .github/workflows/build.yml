@@ -27,8 +27,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q ChatChess_1_3_mobile_build.zip -d extracted
-          find extracted -name settings.gradle.kts
+          unzip -q ChatChess_1_3_mobile_build_fixed.zip -d extracted
 
       - name: Build APK
         run: |
